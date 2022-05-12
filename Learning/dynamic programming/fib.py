@@ -7,5 +7,5 @@ def fib(n, memo = {}): # memo stores n as key values our return values for funct
     memo[n] = fib(n-1, memo) + fib(n-2, memo); # stores result as memo
     return memo[n];
 
-print(fib(7))
+print(fib(50))
   
